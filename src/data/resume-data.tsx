@@ -10,9 +10,8 @@ export const RESUME_DATA = {
     "Accounting professional with years of experience in public and private accounting and advanced technical skills to streamline operations.",
   summary:
     "Detail-oriented accounting professional with 7+ years of experience in both public and private accounting, ranging from startups to large corporations. Actively pursuing full CPA licensure. Proven expertise in month-end close processes, financial reporting, and US GAAP compliance. Brings unique value to accounting operations through advanced technical skills including NetSuite, QuickBooks, Excel, and programming capabilities.",
-  // avatarUrl:
-  //   "https://github.com/arnxldjxy/arnold-cv/blob/main/src/app/glasses.gif?raw=true",
-  websiteUrl: "https://arnold.rip",
+  avatarUrl: "https://github.com/arnxldjxy/cv-arnold-wtf/blob/main/glasses.gif",
+  websiteUrl: "https://arnold.wtf",
 
   contact: {
     email: {
