@@ -43,6 +43,18 @@ export default function Page() {
             </p>
 
             <div className="flex gap-x-2 pt-1 text-sm text-muted-foreground print:hidden">
+              {RESUME_DATA.contact.email.mailto ? (
+                <Button className="size-8" variant="outline" size="icon">
+                  <Link
+                    href={RESUME_DATA.contact.email.mailto}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <MailIcon className="size-4" />
+                  </Link>
+                </Button>
+              ) : null}
+
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
@@ -55,18 +67,6 @@ export default function Page() {
                   </Link>
                 </Button>
               ))}
-
-              {RESUME_DATA.contact.email.mailto ? (
-                <Button className="size-8" variant="outline" size="icon">
-                  <Link
-                    href={RESUME_DATA.contact.email.mailto}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <MailIcon className="size-4" />
-                  </Link>
-                </Button>
-              ) : null}
 
               {/* {RESUME_DATA.contact.tel ? (
                 <Button

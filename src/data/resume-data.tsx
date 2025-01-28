@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     "Detail-oriented accounting professional with 7+ years of experience in both public and private accounting, ranging from startups to large corporations. Actively pursuing full CPA licensure. Proven expertise in month-end close processes, financial reporting, and US GAAP compliance. Brings unique value to accounting operations through advanced technical skills including NetSuite, QuickBooks, Excel, and programming capabilities.",
   avatarUrl:
     "https://raw.githubusercontent.com/arnxldjxy/cv-arnold-wtf/84099fdced9fd3d2e0c0e1cf6fd10c2b388ac6bf/src/app/glasses.gif",
-  websiteUrl: "https://arnold.wtf",
+  websiteUrl: "https://cv.arnold.wtf",
 
   contact: {
     email: {
@@ -22,18 +22,18 @@ export const RESUME_DATA = {
     // tel: "",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/arnxldjxy",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/arnoldsouth/",
         icon: LinkedInIcon,
       },
       {
+        name: "GitHub",
+        url: "https://github.com/arnxldjxy",
+        icon: GitHubIcon,
+      },
+      {
         name: "CV",
-        url: "https://drive.google.com/file/d/1bxznpRsqtbS9qoXU8ou7o7RQDfD3mjbb/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1v078wQHy0wqXGXaDnM7-rn5np5wSZjhe/view?usp=sharing",
         icon: ResumeIcon,
       },
     ],
