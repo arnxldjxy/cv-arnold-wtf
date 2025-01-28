@@ -4,13 +4,14 @@ export const RESUME_DATA = {
   websiteTitle: "aj",
   name: "aj southammavong",
   initials: "aj",
-  // location: "Bay Area",
+  location: "Bay Area",
   // locationLink: "https://www.google.com/maps/place/Oakland",
   about:
     "Accounting professional with years of experience in public and private accounting and advanced technical skills to streamline operations.",
   summary:
     "Detail-oriented accounting professional with 7+ years of experience in both public and private accounting, ranging from startups to large corporations. Actively pursuing full CPA licensure. Proven expertise in month-end close processes, financial reporting, and US GAAP compliance. Brings unique value to accounting operations through advanced technical skills including NetSuite, QuickBooks, Excel, and programming capabilities.",
-  avatarUrl: "https://github.com/arnxldjxy/cv-arnold-wtf/blob/main/glasses.gif",
+  avatarUrl:
+    "https://raw.githubusercontent.com/arnxldjxy/cv-arnold-wtf/84099fdced9fd3d2e0c0e1cf6fd10c2b388ac6bf/src/app/glasses.gif",
   websiteUrl: "https://arnold.wtf",
 
   contact: {

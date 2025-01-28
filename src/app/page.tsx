@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Section } from "@/components/ui/section";
 import { RESUME_DATA } from "@/data/resume-data";
-import { MailIcon } from "lucide-react";
+import { GlobeIcon, MailIcon } from "lucide-react";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.websiteTitle}`,
@@ -38,8 +38,8 @@ export default function Page() {
                 rel="noreferrer"
               >
                 {/* <GlobeIcon className="size-3" /> */}
-                {/* {RESUME_DATA.location} */}
               </a>
+              {RESUME_DATA.location}
             </p>
 
             <div className="flex gap-x-2 pt-1 text-sm text-muted-foreground print:hidden">
