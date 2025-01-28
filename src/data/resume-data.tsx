@@ -32,7 +32,7 @@ export const RESUME_DATA = {
       },
       {
         name: "CV",
-        url: "https://drive.google.com/file/d/1YxssSR_6g5GyBPznG38MxSdjjLJiu0T2/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1LMmjw_l1A3Q6QyLOOQNEqCp2d2GNHckP/view?usp=sharing",
         icon: ResumeIcon,
       },
     ],
@@ -47,26 +47,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Aronson Advertising",
-      link: "https://www.aronsonads.com",
-      badges: [],
-      title: "Data and Web Analyst",
-      start: "2023",
-      end: null,
-      description:
-        "Analyzed and processed data from multiple sources to provide insights and recommendations to clients.",
-    },
-    {
-      company: "Freelance Full Stack Developer",
-      link: "https://arnold.rip",
-      badges: [],
-      title: "Full Stack Developer",
-      start: "2021",
-      end: null,
-      description:
-        "Analytical and data-driven Full Stack Engineer. Passion for building things that make people's lives easier.",
-    },
-    {
       company: "Curology",
       link: "https://curology.com/",
       badges: [],
@@ -74,7 +54,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Created, implemented, and maintained initial cost accounting process to improve timeliness of monthend reporting and accurate financial reporting. Spearheaded NetSuite inventory implementation and migration to the new system from Quickbooks.",
+        "Led end-to-end NetSuite implementation for inventory and fixed assets modules, designing scalable infrastructure to support business growth. Executed month-end close processes including inventory valuation, COGS calculations, AP and accrual entries.",
     },
     {
       company: "Grant Thornton",
@@ -84,10 +64,33 @@ export const RESUME_DATA = {
       start: "2015",
       end: "2019",
       description:
-        "Led multiple audit engagements for both public and private companies.",
+        "Conducted financial statement audits across diverse industries ensuring US GAAP compliance.",
+    },
+    {
+      company: "Aronson Advertising",
+      link: "https://www.aronsonads.com",
+      badges: [],
+      title: "Data and Web Analyst",
+      start: "2023",
+      end: null,
+      description:
+        "Optimized, implemented and managed marketing analytics measurement/reporting systems, utilizing industry best practices and procedures to ensure accurate data flow and analysis.",
+    },
+    {
+      company: "Freelance",
+      link: "https://arnold.wtf",
+      badges: [],
+      title: "Software Developer",
+      start: "2021",
+      end: null,
+      description:
+        "Developed automation tools for accounting processes using Python and SQL. Built and maintained web applications using React, Node, and Express.",
     },
   ],
   skills: [
+    "NetSuite",
+    "QuickBooks",
+    "Excel",
     "JavaScript",
     "TypeScript",
     "React/Next.js",
@@ -95,16 +98,16 @@ export const RESUME_DATA = {
     "PostgreSQL",
     "Python",
     "Django",
-    "Google Analytics",
     "Google Tag Manager",
+    "Google Analytics",
     "Google Ads",
   ],
   projects: [
     {
-      title: "AI Budget Tracker",
-      techStack: ["TypeScript", "React", "Node.js", "Express", "PostgreSQL"],
+      title: "AI Financial Tracker",
+      techStack: ["Python", "Django", "PostgreSQL"],
       description:
-        "AI-powered budget tracking tool that helps users manage their finances.",
+        "AI-powered financial tracking tool that helps users manage their finances.",
       link: {
         label: "https://github.com/arnxldjxy",
         href: "https://github.com/arnxldjxy",
